@@ -1,0 +1,177 @@
+/*/* Css for framework */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px 0; /* Add space from top and bottom */
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.textBoxes {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid #ccc; /* Add border for the rectangular box effect */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+}
+
+.textBoxes label,
+.textBoxes input[type="text"] {
+    display: inline-block;
+    vertical-align: top; /* Align both elements at the top */
+}
+
+.textBoxes label {
+    width: 120px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.textBoxes input[type="text"] {
+    width: calc(100% - 130px); /* Adjust width to fit the remaining space after considering label width and margin */
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+/* Set styles for buttons container */
+.buttonContainer {
+    display: flex;
+    justify-content: center; /* Center align buttons */
+    margin-top: 10px; /* Add space between the buttons and the input boxes */
+}
+
+/* Set styles for buttons */
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #ff7f00; /* Set button color to orange */
+    color: white; /* Set button text color to white */
+    border: none;
+}
+
+button:hover {
+    background-color: #ff9900; /* Darker orange on hover */
+}
+
+/* Set styles for table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #ff7f00; /* Set table header background color to red-orange */
+    color: white; /* Set table header text color to white */
+}
+
+/* Set styles for headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #ff7f00; /* Set heading color to red-orange */
+}
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px 0; /* Add space from top and bottom */
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background-color: black; /* Set body background color to black */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333; /* Darken the container background color */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+}
+
+.textBoxes {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid #666; /* Darken the border color */
+/*    border-radius: 5px; /* Add border-radius for rounded corners */*/
+    background-color: #222; /* Darken the background color */
+}
+
+.textBoxes label {
+    width: 120px;
+    text-align: right;
+    margin-right: 10px;
+    color: #fff; /* Set label text color to white */
+}
+
+.textBoxes input[type="text"] {
+    width: calc(100% - 130px); /* Adjust width to fit the remaining space after considering label width and margin */
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #444; /* Darken the input background color */
+    color: #fff; /* Set input text color to white */
+    border: 1px solid #666; /* Darken the border color */
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center; /* Center align buttons */
+    margin-top: 10px; /* Add space between the buttons and the input boxes */
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #ff7f00; /* Set button color to orange */
+    color: white; /* Set button text color to white */
+    border: none;
+}
+
+button:hover {
+    background-color: #ff9900; /* Darker orange on hover */
+}
+
+/* Set styles for table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: white; /* Set default table text color to white */
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    color: white; /* Set table text color to white */
+}
+
+th {
+    background-color: #ff7f00; /* Set table header background color to red-orange */
+}
+
+/* Set styles for headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #ff7f00; /* Set heading color to red-orange */
+}
